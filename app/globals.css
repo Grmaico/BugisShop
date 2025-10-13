@@ -115,3 +115,32 @@ body{
 .delay-3 { animation-delay: 0.75s; }
 .delay-4 { animation-delay: 1s; }
 .delay-5 { animation-delay: 1.25s; }
+
+/* Flash/pulse for CTA buttons */
+
+@keyframes flashPulse {
+  0% {
+    box-shadow: 0 6px 20px rgba(16,185,129,0.18);
+    transform: translateY(0) scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    box-shadow: 0 18px 48px rgba(16,185,129,0.32);
+    transform: translateY(-4px) scale(1.04);
+    filter: brightness(1.08);
+  }
+  100% {
+    box-shadow: 0 6px 20px rgba(16,185,129,0.18);
+    transform: translateY(0) scale(1);
+    filter: brightness(1);
+  }
+}
+
+.btn-flash {
+  animation: flashPulse 1.4s ease-in-out infinite;
+  will-change: transform, box-shadow, filter;
+}
+
+@media (prefers-reduced-motion: reduce){
+  .btn-flash { animation: none !important; }
+}

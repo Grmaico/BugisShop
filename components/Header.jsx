@@ -22,11 +22,11 @@ export default function Header() {
         </h1>
         <div className="glow-bar mb-6" />
         <p className="text-white/80 max-w-3xl mb-8 text-lg">
-          Pré-venda especial: garanta acesso antecipado ao nosso produto com desconto de lançamento, bônus exclusivos e garantia de 30 dias. Vagas limitadas — reserve seu lugar agora.
+          Pré-venda especial: garanta acesso antecipado ao nosso produto com desconto de lançamento, bônus exclusivos e garantia de 7 dias.
         </p>
         <div className="flex gap-4">
-          <a className="btn-ghost" href="#docs">Quem somos</a>
-          <a className="btn-primary" href="#comprar">Comprar</a>
+          <a className="btn-ghost" href="#audience">Nosso produto</a>
+          <a className="btn-primary" href="#products">Comprar</a>
         </div>
       </section>
     </header>

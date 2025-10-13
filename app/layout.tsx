@@ -6,6 +6,7 @@ export const metadata = {
 };
 
 import { ReactNode } from "react";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className="absolute bottom-0 right-0 w-1/2 h-1/4 bg-blue-400 blur-2xl opacity-20 rounded-full"></div>
         </div>
         {children}
+        <Footer />
       </body>
     </html>
   );
