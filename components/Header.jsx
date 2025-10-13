@@ -17,7 +17,7 @@ export default function Header() {
       </nav>
 
       <section className="flex flex-col items-center text-center py-16 px-6">
-        <h1 className="text-6xl md:text-8xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-cyan-200 tracking-widest">
+        <h1 className="text-4xl md:text-7xl lg:text-8xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-cyan-200 tracking-wide">
           BUGISSHOP
         </h1>
         <div className="glow-bar mb-6" />

@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Produto em Breve — Pré-venda",
+  title: "Pré-venda",
   description: "Página de apresentação para lançamento de produto. Em breve: oferta, bônus e pré-venda.",
 };
 

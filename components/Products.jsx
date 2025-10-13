@@ -9,7 +9,7 @@ export default function Products(){
       oldPrice: 'R$ 47,00',
       discount: '-79%',
       savings: 'Você economiza R$ 37,00',
-      items: ['35 Livros de Colorir em PDF','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
+      items: ['2 Livros com 30 Paginas em PDF','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
       img: '/images/Cristão.png',
     },
     {
@@ -65,7 +65,9 @@ export default function Products(){
                 <button disabled className="mt-auto inline-block w-full max-w-[320px] bg-gray-700 text-gray-400 font-bold py-3 rounded cursor-not-allowed">EM BREVE</button>
               ) : (
                 <a
-                  href={`/#comprar-${p.id}`}
+                  href="https://pay.cakto.com.br/3fouwb7_605864"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-auto inline-block w-full max-w-[320px] bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded btn-flash animate-pulse"
                   style={{ animation: 'flashPulse 1.4s ease-in-out infinite' }}
                 >
