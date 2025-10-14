@@ -9,23 +9,23 @@ import "swiper/css/autoplay"
 export default function FeedbackCarousel() {
   const feedbacks = [
     {
-      name: "Cliente satisfeito",
-      text: "",
+      name: "Renata Peixoto — Instagram (13/10/2025)",
+      text: "Oi! Comprei e já estou imprimindo — meus filhos adoraram!",
       image: "/images/feedb2.png"
     },
     {
-      name: "Estudante beta",
-      text: "",
+      name: "Aluno Beta — WhatsApp (12/10/2025)",
+      text: "Material fácil de usar, ideal para atividades em casa.",
       image: "/images/feedb3.png"
     },
     {
-      name: "Empreendedor",
-      text: "",
+      name: "Prof. Carlos — Instagram (11/10/2025)",
+      text: "Uso em sala e as crianças ficaram engajadas.",
       image: "/images/feedb4.png"
     },
     {
-      name: "Empreendedor",
-      text: "",
+      name: "Lígia — Direct (10/10/2025)",
+      text: "Recebi o link e em 10 minutos já estava imprimindo.",
       image: "/images/feedb5.png"
     },
     
@@ -54,12 +54,15 @@ export default function FeedbackCarousel() {
               <SwiperSlide key={i}>
                 <div className="flex flex-col items-center justify-center">
                   {f.image && (
-                    <img 
-                      src={f.image} 
-                      alt={`Foto de ${f.name}`} 
-                      className="w-auto h-auto max-h-[220px] md:max-h-[420px] lg:max-h-[560px] max-w-full object-contain mb-4 transition-transform duration-700 hover:scale-105 shadow-[0_6px_40px_rgba(99,102,241,0.35)] mx-auto" 
-                      style={{display: 'block'}} 
-                    />
+                    <div className="w-full max-w-[420px] rounded-xl overflow-hidden mb-4 relative">
+                      <img 
+                        src={f.image} 
+                        alt={`Foto de ${f.name}`} 
+                        className="w-full h-auto max-h-[360px] sm:max-h-[420px] md:max-h-[420px] lg:max-h-[560px] object-contain bg-transparent" 
+                        style={{display: 'block'}} 
+                      />
+                      {/* overlay removed as requested; image keeps rounded container */}
+                    </div>
                   )}
                 </div>
               </SwiperSlide>
