@@ -25,8 +25,8 @@ export default function Header() {
           Pré-venda especial: garanta acesso antecipado ao nosso produto com desconto de lançamento, bônus exclusivos e garantia de 7 dias.
         </p>
         <div className="flex gap-4">
-          <a className="btn-ghost" href="#audience">Nosso produto</a>
-          <a className="btn-primary" href="#products">Comprar</a>
+          <a className="btn-ghost btn-subtle" href="#audience">Nosso produto</a>
+          <a className="btn-primary btn-subtle" href="#products">Comprar</a>
         </div>
       </section>
     </header>

@@ -9,7 +9,7 @@ export default function Products(){
       oldPrice: 'R$ 47,00',
       discount: '-79%',
       savings: 'Você economiza R$ 37,00',
-      items: ['2 Livros com 30 Paginas em PDF','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
+      items: ['2 Livros com 30 ','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
       img: '/images/Cristão.png',
     },
     {

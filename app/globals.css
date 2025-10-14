@@ -108,6 +108,18 @@ body{
   animation: pop 2.8s ease-in-out infinite;
 }
 
+/* Guard/shield subtle pulse */
+@keyframes guardPulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.06); opacity: 0.98; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.icon-guard {
+  animation: guardPulse 3.4s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
 /* utility helpers for staggered delays */
 .delay-0 { animation-delay: 0s; }
 .delay-1 { animation-delay: 0.25s; }
@@ -143,4 +155,24 @@ body{
 
 @media (prefers-reduced-motion: reduce){
   .btn-flash { animation: none !important; }
+}
+
+/* Subtle button float for header CTAs */
+@keyframes headerFloat {
+  0% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-3px) scale(1.01); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+.btn-subtle {
+  animation: headerFloat 4s ease-in-out infinite;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.btn-subtle:hover{
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 14px 36px rgba(0,0,0,0.25);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .btn-subtle { animation: none !important; transition: none !important; }
 }

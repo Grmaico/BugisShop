@@ -10,19 +10,25 @@ export default function FeedbackCarousel() {
   const feedbacks = [
     {
       name: "Cliente satisfeito",
-      text: "Resultado real: transformei minhas ideias em um produto que vendeu no primeiro mês.",
-      image: "/images/feedback1.png"
+      text: "",
+      image: "/images/feedb2.png"
     },
     {
       name: "Estudante beta",
-      text: "A estrutura do curso acelerou meu lançamento e me ajudou a captar clientes.",
-      image: "/images/feedback2.png"
+      text: "",
+      image: "/images/feedb3.png"
     },
     {
       name: "Empreendedor",
-      text: "Materiais práticos e direto ao ponto — recomendo para quem quer vender online.",
-      image: "/images/feedback3.png"
+      text: "",
+      image: "/images/feedb4.png"
     },
+    {
+      name: "Empreendedor",
+      text: "",
+      image: "/images/feedb5.png"
+    },
+    
   ]
 
   return (
