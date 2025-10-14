@@ -35,7 +35,7 @@ export default function AudienceLab() {
       </div>
       <div id="socials" className="flex gap-8 justify-center mt-10 mb-6">
         <a href="https://wa.me/5511988540723" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer" className="text-white hover:text-green-400 text-2xl icon-pop delay-0 focus:outline-none focus:ring-2 focus:ring-green-400 rounded" title="Contato via WhatsApp"><FaWhatsapp /></a>
-        <a href="https://www.instagram.com/grmaico/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500 text-2xl icon-pop delay-1 focus:outline-none focus:ring-2 focus:ring-pink-400 rounded" title="Instagram"><FaInstagram /></a>
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500 text-2xl icon-pop delay-1 focus:outline-none focus:ring-2 focus:ring-pink-400 rounded" title="Instagram"><FaInstagram /></a>
         <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600 text-2xl icon-pop delay-2 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded" title="Facebook"><FaFacebookF /></a>
       </div>
       <a href="https://wa.me/5511988540723" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg shadow-lg transition inline-block">Entre em contato com a gente</a>
