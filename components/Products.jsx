@@ -8,7 +8,7 @@ export default function Products(){
       price: 'R$ 9,97',
       oldPrice: 'R$ 47,00',
       discount: '-79%',
-      savings: 'Você economiza R$ 37,00',
+      savings: 'Você economiza R$ 37,03',
       items: ['2 Livros com 30 ','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
       img: '/images/Cristão.png',
     },
