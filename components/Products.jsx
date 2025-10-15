@@ -9,7 +9,7 @@ export default function Products(){
       oldPrice: 'R$ 47,00',
       discount: '-79%',
       savings: 'Você economiza R$ 37,03',
-      items: ['2 Livros com 30 ','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
+      items: ['3 Livros com 90 Páginas para Colorir ','Temas Bíblicos Variados','Acesso Vitalício','Suporte por WhatsApp','Garantia de 7 dias'],
       img: '/images/Cristão.png',
     },
     {
@@ -19,7 +19,7 @@ export default function Products(){
       oldPrice: 'R$ 256,00',
       discount: '-93%',
       savings: 'Você economiza R$ 239,00',
-      items: ['Tudo do Pacote Básico','Pacote de canetinha com 24 Cores','Bônus: 3 livros com 30 paginas',],
+      items: ['Tudo do Pacote Básico','Pacote de Canetinha Com 24 Cores','Bônus: 3 livros Com 30 Páginas',],
       img: '/images/CristãoCanetinha1.png',
       locked: true,
     }
